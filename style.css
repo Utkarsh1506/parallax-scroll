@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Tilt+Warp&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #f9f9f9;
+    min-height: 100vh;
+    overflow-x: hidden;
+
+}
+header{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+
+}
+.logo{
+    font-size: 2em;
+    color: #555;
+    pointer-events: none;
+    margin-right: 270px;
+}
+.logo span{
+    color: #359381;
+}
+.navigation a{
+    text-decoration: none;
+    color: #359381;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+.navigation a:hover,
+.navigation a.active {
+    background: #359381;
+    color: #fff;    
+}
+.parallax {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#text{
+    position: absolute;
+    font-size: 5em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+.parallax img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+
+}
+
+.sec{
+    position: relative;
+    background: #003329;
+    padding: 200px;
+
+}
+.sec h2{
+    font-size: 3em;
+    color: #fff;
+    
+
+}
+.sec p{
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+    padding: 10px 0 40px 0;
+}
+.btn-group a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 40px;
+    background: #359381;
+    border-radius: 10px;
+    border: 2px solid #359381;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.btn-group a:hover:nth-child(1) {
+    color: #fff;
+    background: transparent;
+}
+
+.btn-group a:nth-child(2) {
+    color: #359381;
+    background: transparent;
+    margin-left: 30px;
+    padding: 10px 30px;
+}
+
+.btn-group a:hover:nth-child(2) {
+    color: #fff;
+    background: #359381;
+}
+
+.social-icons {
+    position: absolute;
+    bottom: 50px;
+}
+ 
+.social-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: #359381;
+    border-radius: 50%;
+    margin-left: 22px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #fff;
+    outline: 2px solid #fff;
+    transition: .3s;
+}
+.social-icons a:hover {
+    transform: translateY(-8px);
+}
